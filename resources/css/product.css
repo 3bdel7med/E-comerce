@@ -1,0 +1,11 @@
+.rating-css div {
+    color: #ffe488;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.rating-css input {
+    display: none;
+}

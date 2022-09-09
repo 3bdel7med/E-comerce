@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models\Site;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Category extends Model
+{
+    use HasFactory;
+    protected $fillable=['name','photo'];
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
+}
